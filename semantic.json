@@ -1,0 +1,22 @@
+{
+  "base": "semantic/",
+  "paths": {
+    "source": {
+      "config": "src/theme.config",
+      "definitions": "src/definitions/",
+      "site": "src/site/",
+      "themes": "src/themes/"
+    },
+    "output": {
+      "packaged": "../src/styles/semantic/",
+      "uncompressed": "../src/styles/semantic/components/",
+      "compressed": "../src/styles/semantic/components/",
+      "themes": "../src/styles/semantic/themes/"
+    },
+    "clean": "../src/styles/semantic/"
+  },
+  "permission": false,
+  "autoInstall": true,
+  "rtl": false,
+  "version": "2.7.2"
+}
